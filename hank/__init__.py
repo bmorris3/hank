@@ -6,4 +6,5 @@
 from ._astropy_init import *   # noqa
 # ----------------------------------------------------------------------------
 
-__all__ = []
+from .core import *  # noqa
+from .lightcurve import *  # noqa
